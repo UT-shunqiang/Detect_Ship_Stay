@@ -1,3 +1,7 @@
+"""
+author: Shunqiang Xu
+date: 20/04/2025
+"""
 import os
 import time
 import math
@@ -10,7 +14,7 @@ from matplotlib.patches import Polygon
 def get_distance(point1, point2):
     """ calculate the distance between two global coordinates using haversine formula
     :param:
-        point1：(lonitude, latitude)
+        point1: (lonitude, latitude)
         point2: (longitude, latitude)
     :return:
         distance: in meter
@@ -138,7 +142,8 @@ def visualize(stays):
                s=10,
                label='Stay point',
                zorder=3)
-
+    
+    # additional figure configuration
     ax.grid(alpha=0.2, zorder=1)
     ax.set_xlim(8.5, 13)
     ax.set_ylim(54.5, 56.5)

@@ -1,6 +1,6 @@
 ## Vessel stay behavior detection
 
-Detect ship stay behavior from [open-source](https://web.ais.dk/aisdata/) ship trajectory data. 
+The repository is to achieve stay behavior extraction from ship trajectory data (*Section 3.1 ship atomic behavior model* in the article). The [open-source](https://web.ais.dk/aisdata/) ship trajectory data from Danish maritime authority is used in the repository.
 
 ## Table of Contents
 
@@ -38,14 +38,14 @@ The version Python 3.10 is used in this algorithm. Beyond versions are also comp
 # Ensure Git is installed
 # Visit https://git-scm.com to download and install console Git if not already installed.
 
-# Clone the repository
+# Clone the repository in Git
 git clone https://github.com/UT-shunqiang/Detect_Ship_Stay.git
 
 # Navigate to the project directory
 cd Detect_Ship_Stay
 
 # Create vitual environment. "-3.10" can be replaced by the version of installed Python intepretor
-python -3.10 -m venv myenv # myenv is env name
+python -3.10 -m venv myenv # myenv is the name of vitual environment
 
 # Activate the environment
 myenv/Scripts/activate
