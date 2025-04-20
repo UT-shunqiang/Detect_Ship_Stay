@@ -33,6 +33,8 @@ A concise but fully-featured transformer, complete with a set of promising e**x*
 To reproduce the results, follow these steps:
 
 ```
+install python
+
 git clone https://github.com/GregorD1A1/Clean-Coder-AI
 cd Clean-Coder-AI
 
