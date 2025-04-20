@@ -7,6 +7,7 @@ The repository is to achieve stay behavior extraction from ship trajectory data 
 - [Research Information](#-Reseach-Information)
 - [Folder Structure](#-Folder-Structure)
 - [How to Reproduce](#-How-to-Reproduce)
+- [Results](#-Results)
 - [Contacts](#%EF%B8%8F-contacts)
 
 ## 📌 Research Information  
@@ -60,6 +61,14 @@ cd src
 # run the main.py
 python main.py
 ```
+
+## ✅ Results
+
+![outputs](C:\Users\XuS\OneDrive - University of Twente\Bureaublad\Detect_Stay\outputs.png)
+
+## 🕒 Running time
+
+The execution time of `main.py` is about **2 seconds**.
 
 ## 🗨️ Contacts
 
