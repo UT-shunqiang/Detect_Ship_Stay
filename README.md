@@ -64,7 +64,7 @@ python main.py
 
 ## ✅ Results
 
-![outputs](C:\Users\XuS\OneDrive - University of Twente\Bureaublad\Detect_Stay\outputs.png)
+![outputs](./outputs.png)
 
 ## 🕒 Running time
 
