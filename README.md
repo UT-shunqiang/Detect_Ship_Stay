@@ -1,4 +1,4 @@
-## Vessel stay behavior detection
+## :ship: Vessel stay behavior detection
 
 The repository is to achieve stay behavior extraction from ship trajectory data (*Section 3.1 ship atomic behavior model* in the article). The [open-source](https://web.ais.dk/aisdata/) ship trajectory data from Danish maritime authority is used in the repository.
 
@@ -19,21 +19,22 @@ The repository is to achieve stay behavior extraction from ship trajectory data 
 
 ## 📂 Folder Structure
 
-| 📁 Folder    | 📄 File            | 📝 Description                                       |
-| ----------- | ----------------- | --------------------------------------------------- |
-| **data/**   | `cleaned_ais.pkl` | Input data                                          |
-| **src/**    | `main.py`         | Python script  to generate output                   |
-| **output/** | `output.png`      | Research output of the ship stay behavior detection |
+| 📁 Folder                   | 📄 File            | 📝 Description                        |
+| -------------------------- | ----------------- | ------------------------------------ |
+| **data/**                  | `cleaned_ais.pkl` | Input data                           |
+| **data/Denmark-shapfile/** | `DNK_adm0.shp`    | geo-information of Denmark           |
+| **src/**                   | `main.py`         | Python script  to generate output    |
+|                            | `output.png`      | Ship stay behavior detection results |
 
 
 
 ## 📝 How to Reproduce
 
-To reproduce the results, follow these steps:
+To reproduce the result, follow these steps:
 
 ```
-# Ensure python intepretor is installed
-The version Python 3.10 is used in this algorithm. Beyond versions are also compatible.
+# Ensure python is installed
+Python 3.10 is used in this repository. Beyond versions are also compatible.
 
 # Ensure Git is installed
 # Visit https://git-scm.com to download and install console Git if not already installed.
@@ -44,7 +45,7 @@ git clone https://github.com/UT-shunqiang/Detect_Ship_Stay.git
 # Navigate to the project directory
 cd Detect_Ship_Stay
 
-# Create vitual environment. "-3.10" can be replaced by the version of installed Python intepretor
+# Create vitual environment. "-3.10" can be replaced by the version of installed Python
 python -3.10 -m venv myenv # myenv is the name of vitual environment
 
 # Activate the environment
@@ -59,8 +60,6 @@ cd src
 # run the main.py
 python main.py
 ```
-
-
 
 ## 🗨️ Contacts
 
